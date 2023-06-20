@@ -1,0 +1,44 @@
+.list {
+  width: 20%;
+  padding: 0;
+}
+.item {
+  box-shadow: 0px 0px 11px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: white;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.online {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  border-radius: 50%;
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+}
+.offline {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  border-radius: 50%;
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+}
+.avatar {
+  border-radius: 5px;
+  margin: 0;
+}
+.name {
+  margin-left: 10px;
+  display: flex;
+  align-self: center;
+  font-size: 18px;
+}

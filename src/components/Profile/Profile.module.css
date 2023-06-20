@@ -1,0 +1,50 @@
+.profile {
+  width: 30%;
+  background-color: lightgray;
+  box-shadow: 0px 0px 11px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.description {
+  background-color: white;
+  padding: 30px 0;
+  width: 100%;
+}
+.avatar {
+  border-radius: 50%;
+  width: 40%;
+  background-color: rgb(107, 70, 24);
+}
+.name {
+  color: black;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.tag {
+  color: gray;
+  padding: 10px 0;
+}
+.location {
+  color: gray;
+}
+.stats {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgb(230, 230, 230);
+  border-right: 1px solid gray;
+}
+.stats li {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+.label {
+  color: gray;
+}
+.quantity {
+  color: black;
+  font-weight: bold;
+}
