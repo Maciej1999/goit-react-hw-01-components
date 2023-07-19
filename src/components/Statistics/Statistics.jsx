@@ -1,9 +1,9 @@
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
-const Statistics = ({ data }) => {
+const Statistics = ({ data, title }) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>Upload stats</h2>
+      {title && <h2 className={css.title}>Upload stats</h2>}
 
       <ul className={css.list}>
         {data.map(stat => (
@@ -17,6 +17,7 @@ const Statistics = ({ data }) => {
   );
 };
 Statistics.propTypes = {
+  title: PropTypes.string,
   data: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
